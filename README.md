@@ -37,3 +37,36 @@ npm run dev   # development with nodemon
 - `GET /api/applications/my` (get logged-in user's applications)
 - `GET /api/notifications` (list recent notifications)
 
+## Full app local run
+
+Backend:
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+Frontend:
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Default URLs:
+- Backend: http://localhost:5000
+- Frontend: http://localhost:5173
+
+## Current status
+- Auth register/login works
+- Employer can post jobs
+- Jobseeker can apply with resume upload
+- The backend uses an in-memory fallback when MongoDB is unavailable
+
+## Thursday continuation plan
+1. Finish favorites UI and favorites endpoints
+2. Add notification badges and UI
+3. Add employer dashboard/profile UI
+4. Add search/filter polish and better job cards
+5. Connect to real MongoDB for persistence
+
