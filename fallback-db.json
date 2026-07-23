@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "name": "Smoke Test",
+      "email": "smoke+test@example.com",
+      "password": "$2a$10$f1FqJqHkfxLOv/yFs.vviu8Qq7vaD807r43zcQ0Ovygh7pLvjV/oG",
+      "role": "jobseeker",
+      "favorites": [],
+      "id": "1784671511595-phk0sc"
+    },
+    {
+      "name": "UI Smoke",
+      "email": "ui.smoke+test@example.com",
+      "password": "$2a$10$n/mMD4K/cdlVDm7sX330c.i01G.P3GCzVYeGuUfGs0r.n1pscMRvO",
+      "role": "jobseeker",
+      "favorites": [],
+      "id": "1784672032365-7gqo53"
+    },
+    {
+      "name": "Employer UI",
+      "email": "ui.emp+test@example.com",
+      "password": "$2a$10$st6GuLMAGxACu1.J2kvZI.R1P7i0OeJSxd7gSjLYiErlSWOILtNRq",
+      "role": "employer",
+      "favorites": [],
+      "id": "1784672211440-hawqb8"
+    },
+    {
+      "name": "abosi blessing",
+      "email": "abosiblessing1@gmail.com",
+      "password": "$2a$10$7CWwKj/zTzQcKDsFpa.nJuqiVTSWebHctRtTaf26g59wmA1J6Djny",
+      "role": "jobseeker",
+      "favorites": [],
+      "id": "1784811432996-8ilxk0"
+    },
+    {
+      "name": "abosi glory",
+      "email": "abosiglory@gmail.com",
+      "password": "$2a$10$zIVSa1bv//4O6HCbFFx50eVJX56IUweb/uqn3YXZY6sIcc7jNmOym",
+      "role": "employer",
+      "favorites": [],
+      "id": "1784811584315-nl39gv"
+    }
+  ],
+  "jobs": [
+    {
+      "title": "UI Posted Job",
+      "company": "Acme Co",
+      "location": "Remote",
+      "type": "Full-time",
+      "description": "Posted via UI smoke test",
+      "postedBy": "1784672211440-hawqb8",
+      "createdAt": "2026-07-21T22:17:51.071Z",
+      "id": "1784672271071-8j1xf7"
+    }
+  ],
+  "applications": [
+    {
+      "job": "1784672271071-8j1xf7",
+      "applicant": "1784672032365-7gqo53",
+      "resumeUrl": "/uploads/ee571a7516fc267e1f61a257dade5eac",
+      "createdAt": "2026-07-21T22:20:43.330Z",
+      "id": "1784672443331-y1jwth"
+    }
+  ],
+  "notifications": [
+    {
+      "type": "new_job",
+      "message": "New job posted: UI Posted Job",
+      "meta": {
+        "jobId": "1784672271071-8j1xf7"
+      },
+      "createdAt": "2026-07-21T22:17:51.074Z",
+      "id": "1784672271075-eepj37"
+    },
+    {
+      "type": "new_application",
+      "message": "New application for UI Posted Job",
+      "meta": {
+        "jobId": "1784672271071-8j1xf7",
+        "applicationId": "1784672443331-y1jwth"
+      },
+      "createdAt": "2026-07-21T22:20:43.335Z",
+      "id": "1784672443335-3ew1qw"
+    }
+  ]
+}
